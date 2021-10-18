@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity"
+	maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+	prefHeight="467.0" prefWidth="702.0"
+	style="-fx-background-radius: 5em;"
+	xmlns="http://javafx.com/javafx/8.0.171"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="main.java.TelaPrincipalController">
+	<children>
+		<Pane layoutX="-4.0" layoutY="-3.0"
+			maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0"
+			prefWidth="269.0" style="-fx-background-color: #167cc9;">
+			<children>
+				<Text fill="WHITE" fontSmoothingType="LCD" layoutX="12.0"
+					layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0"
+					text="Estante Extrator">
+					<font>
+						<Font name="SansSerif Italic" size="30.0" />
+					</font>
+				</Text>
+				<ImageView fitHeight="150.0" fitWidth="200.0"
+					layoutX="74.0" layoutY="164.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@imagens/ares.png" />
+					</image>
+				</ImageView>
+			</children>
+		</Pane>
+		<Pane layoutX="278.0" layoutY="-1.0" prefHeight="500.0"
+			prefWidth="700.0">
+			<children>
+				<Text layoutX="37.0" layoutY="124.0" strokeType="OUTSIDE"
+					strokeWidth="0.0" text="Escolha a planilha para extrair" />
+				<TextField id="txtOrigem" fx:id="txtOrigem" layoutX="37.0"
+					layoutY="144.0" prefHeight="28.0" prefWidth="253.0" />
+				<Button id="idOrigem" fx:id="btnOrigem" layoutX="325.0"
+					layoutY="142.0" mnemonicParsing="false" onAction="#procurarOrigem"
+					text="Procurar" />
+				<Button id="iniciar" fx:id="btnIniciar" layoutX="220.0"
+					layoutY="340.0" mnemonicParsing="false" onAction="#iniciarExtracao"
+					prefHeight="55.0" prefWidth="190.0" text="Iniciar Extração">
+					<tooltip>
+						<Tooltip fx:id="tooltip"
+							text="Será criado um arquivo com o sufixo &quot;extraído&quot;">
+						</Tooltip>
+					</tooltip>
+				</Button>
+				<ProgressBar fx:id="progressBar" layoutX="35.0"
+					layoutY="240.0" prefHeight="20.0" prefWidth="339.0" progress="0.0"
+					visible="false" />
+				<Text id="txtProgress" fx:id="txtProgress" layoutX="35.0"
+					layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0"
+					textAlignment="CENTER" wrappingWidth="338.9999961555004" />
+				<Button id="cancelar" fx:id="btnCancelar" layoutY="340.0"
+					mnemonicParsing="false" onAction="#cancelarExtracao"
+					prefHeight="55.0" prefWidth="205.0" text="Cancelar Extração" />
+			</children>
+			<effect>
+				<Blend />
+			</effect>
+		</Pane>
+	</children>
+</AnchorPane>
