@@ -36,7 +36,7 @@
 					layoutX="74.0" layoutY="164.0" pickOnBounds="true"
 					preserveRatio="true">
 					<image>
-						<Image url="@imagens/ares.png" />
+						<Image url="main/resources/imagens/ares.png" />
 					</image>
 				</ImageView>
 			</children>

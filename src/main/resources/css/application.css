@@ -1,0 +1,56 @@
+{
+	-azul-tema: "167cc9";
+	-branco: "FFFFFF";
+	-pressed: "c8cfdb";
+}
+.button#iniciar{
+	-fx-font-size: 18px;
+}
+
+.button#cancelar{
+	-fx-font-size: 18px;
+    -fx-background-color: -branco;
+    -fx-text-fill: -azul-tema;
+	-fx-background-radius: 25px; 
+	-fx-border-color: -azul-tema;
+	-fx-border-width: 3px;
+	-fx-border-radius: 25px;	
+}
+
+.button#cancelar:hover{
+	-fx-font-size: 18px;
+    -fx-background-color: -azul-tema;
+    -fx-text-fill: -branco;
+	-fx-background-radius: 25px; 
+	-fx-border-color: -branco;
+	-fx-border-width: 2px;
+	-fx-border-radius: 25px;	
+}
+
+.button#cancelar:pressed{
+	-fx-background-color: -pressed;
+}
+
+.button{
+	-fx-text-fill: "#ffffff";
+	-fx-background-color: -azul-tema;
+	-fx-background-radius: 25px; 
+	-fx-border-width: 2px;
+	-fx-border-radius: 25px;
+	-fx-font-size: 14px;
+}
+
+.button:hover{
+    -fx-background-color: -branco;
+    -fx-text-fill: -azul-tema;
+	-fx-background-radius: 25px; 
+	-fx-border-color: -azul-tema;
+	-fx-border-width: 2px;
+	-fx-border-radius: 25px;
+	
+}
+
+.button:pressed{
+	-fx-background-color: -pressed;
+}
+

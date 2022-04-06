@@ -15,8 +15,7 @@ import main.java.model.Livro;
 
 
 
-public class TelaPrincipalController
-{
+public class TelaPrincipalController{
 	@FXML
 	private TextField txtOrigem;
 	@FXML

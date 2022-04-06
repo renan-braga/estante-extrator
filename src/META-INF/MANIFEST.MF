@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Main-Class: main.java.Main
+Class-Path: poi-ooxml-schemas-4.1.0.jar commons-compress-1.18.jar httpco
+ re-4.4.9.jar javafx-base-11-linux.jar error_prone_annotations-2.1.3.jar
+  javafx-swing-11.jar selenium-firefox-driver-3.14.0.jar commons-logging
+ -1.2.jar selenium-java-3.14.0.jar jarchivelib-1.0.0.jar commons-collect
+ ions4-4.3.jar javafx-fxml-11.jar javafx-web-11.jar selenium-safari-driv
+ er-3.14.0.jar javafx-controls-11-linux.jar javafx-controls-11.jar selen
+ ium-chrome-driver-3.14.0.jar httpclient-4.5.5.jar selenium-edge-driver-
+ 3.14.0.jar j2objc-annotations-1.1.jar commons-lang3-3.8.1.jar gson-2.8.
+ 5.jar selenium-ie-driver-3.14.0.jar javafx-graphics-11-linux.jar poi-oo
+ xml-4.1.0.jar animal-sniffer-annotations-1.14.jar webdrivermanager-3.7.
+ 1.jar jsr305-1.3.9.jar commons-codec-1.12.jar commons-math3-3.6.1.jar g
+ uava-25.0-jre.jar javafx-swing-11-linux.jar javafx-graphics-11.jar java
+ fx-base-11.jar javafx-media-11-linux.jar selenium-api-3.14.0.jar checke
+ r-compat-qual-2.0.0.jar commons-io-2.6.jar commons-exec-1.3.jar jsoup-1
+ .11.3.jar javafx-web-11-linux.jar curvesapi-1.06.jar okhttp-3.10.0.jar 
+ byte-buddy-1.8.15.jar javafx-media-11.jar selenium-remote-driver-3.14.0
+ .jar selenium-support-3.14.0.jar xmlbeans-3.1.0.jar poi-4.1.0.jar javaf
+ x-fxml-11-linux.jar okio-1.14.1.jar selenium-opera-driver-3.14.0.jar sl
+ f4j-api-1.7.25.jar
+
